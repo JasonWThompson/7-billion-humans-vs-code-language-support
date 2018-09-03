@@ -3,7 +3,7 @@
     "displayName": "7 Billion Humans language support",
     "description": "Provides syntax highlighting for Tommorow Corporation's game, 7 Billion Humans",
     "version": "1.0.0",
-    "publisher": "Jason W. Thompson",
+    "publisher": "jasonwthompson",
     "engines": {
         "vscode": "^1.24.0"
     },
