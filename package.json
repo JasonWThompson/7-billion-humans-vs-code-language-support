@@ -31,5 +31,12 @@
                 "path": "./syntaxes/7bh.tmLanguage.json"
             }
         ]
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "homepage": "https://github.com/JasonWThompson/7-billion-humans-vs-code-language-support",
+    "bugs": "https://github.com/JasonWThompson/7-billion-humans-vs-code-language-support/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JasonWThompson/7-billion-humans-vs-code-language-support.git"
     }
 }
