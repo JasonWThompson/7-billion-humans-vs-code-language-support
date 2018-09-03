@@ -1,0 +1,56 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "7 Billion Humans",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "comment",
+					"match": "^\\s*(--.*--)\\s*$"
+				},
+				{
+					"name": "string.quoted",
+					"match": "\\b(coffeetime|go|goodbye|hi|morning|ok|ready|ugh)\\b"
+				},
+				{
+					"name": "keyword.control.7bh",
+					"match": "\\b(else|endif|if|jump|foreachdir|endfor)\\b"
+				},
+				{
+					"name": "keyword.operator.7bh",
+					"match": "\\b(=|<|>|and|or)\\b"
+				},
+				{
+					"name": "constant.language.7bh",
+					"match": "\\b(datacube|hole|nothing|person|printer|shredder|wall)\\b"
+				},
+				{
+					"name": "entity.name.function.7bh",
+					"match": "\\b(calc|comment|drop|giveto|listenfor|nearest|pickup|set|step|takefrom|tell|write)\\b"
+				},
+				{
+					"name": "constant.numeric.7bh",
+					"match": "\\b(\\d+)\\b"
+				},
+				{
+					"name": "entity.name.section.7bh",
+					"match": "^\\s*(\\w+:)\\s*"
+				},
+				{
+					"name": "variable.7bh",
+					"match": "\\b(mem\\d|myitem|n|s|e|w|nw|ne|sw|se|c)\\b"
+				},
+				{
+					"name": "meta.preprocessor",
+					"match": "^\\s*(DEFINE[.\\n]+;)"
+				}
+			]
+		}
+	},
+	"scopeName": "source.7bh"
+}

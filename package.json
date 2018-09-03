@@ -1,0 +1,35 @@
+{
+    "name": "7-billion-humans-language-support",
+    "displayName": "7 Billion Humans language support",
+    "description": "Provides syntax highlighting for Tommorow Corporation's game, 7 Billion Humans",
+    "version": "1.0.0",
+    "publisher": "Jason W. Thompson",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "7bh",
+                "aliases": [
+                    "7 Billion Humans",
+                    "7bh"
+                ],
+                "extensions": [
+                    ".7bh"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "7bh",
+                "scopeName": "source.7bh",
+                "path": "./syntaxes/7bh.tmLanguage.json"
+            }
+        ]
+    }
+}
