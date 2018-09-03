@@ -18,4 +18,4 @@ Jason W. Thompson - Totally not a Robot
 * Optional warnings on scripts that exceed the OCD number of lines
 
 # How to Install
-* Installation instructions and source code will be published after the game is officially released.
+* To install press CTRL+SHIFT+X to enter the Visual Studio Code extensions gallary. Then search for 7 Billion Humans language support. Finally click the green install button.
