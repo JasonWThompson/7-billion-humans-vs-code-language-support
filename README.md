@@ -2,7 +2,7 @@
 [Visual Studio Code](https://code.visualstudio.com) language support for the video game [7 Billion Humans](https://tomorrowcorporation.com/7billionhumans) by [Tomorrow Corporation](https://tomorrowcorporation.com).
 
 # Greetings
-Greetings Humans! Bzzt... If you are here then it means that you are a fellow human who would like to edit scripts from the game [7 Billion Humans](https://tomorrowcorporation.com/7billionhumans) in an IDE. If that's you, then you've come to the right place. With this extension you'll be able to use the POWER of Visual Studio Code to edit the game.
+Greetings Humans! Bzzt... If you are here then it means that you are a fellow human who would like to edit scripts from the game [7 Billion Humans](https://tomorrowcorporation.com/7billionhumans) in an IDE. If that's you, then you've come to the right place. With this extension you'll be able to use the POWER of Visual Studio Code to edit scripts from the game.
 
 Thanks,
 
